@@ -24,10 +24,10 @@ require "authlogic/version"
 
   s.required_ruby_version = ">= 2.3.0"
 
-  # See doc/rails_support_in_authlogic_5.0.md
-  s.add_dependency "activemodel", [">= 5.2", "< 6.1"]
-  s.add_dependency "activerecord", [">= 5.2", "< 6.1"]
-  s.add_dependency "activesupport", [">= 5.2", "< 6.1"]
+  # See doc/rails_support_in_authlogic_5.0.mdi
+  s.add_dependency "activemodel", [">= 5.0.2", "< 6.1"]
+  s.add_dependency "activerecord", [">= 5.0.2", "< 6.1"]
+  s.add_dependency "activesupport", [">= 5.0.2", "< 6.1"]
   s.add_dependency "request_store", "~> 1.0"
   s.add_dependency "scrypt", ">= 3.0.6", "< 4.0"
   s.add_development_dependency "bcrypt", "~> 3.1"
